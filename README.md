@@ -44,7 +44,7 @@ If you don't want to include a `Dockerfile` in your project, it is sufficient to
 
 ### Auto restart when system booted
 
-    docker run -it --rm --name my-php-fpm-app -restart always -v "$PWD":/var/www/html kargnas/php-5.3
+    docker run -it --restart always --name my-php-fpm-app -v "$PWD":/var/www/html kargnas/php-5.3
 
 # License
 
